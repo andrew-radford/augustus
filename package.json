@@ -1,0 +1,17 @@
+{
+  "name": "augustus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "andrew-radford <andrewradford125@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace frontend start\" \"yarn workspace backend start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

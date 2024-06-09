@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Yarn
+.yarn-integrity
+
+# Angular
+packages/frontend/.angular/cache/
+packages/frontend/.angular/coverage/
+packages/frontend/dist/
+packages/frontend/out-tsc/
+packages/frontend/tmp/
+
+# TypeScript
+packages/frontend/.tsbuildinfo
+packages/backend/.tsbuildinfo
+
+# Angular build
+packages/frontend/build/
+
+# Angular service worker
+packages/frontend/ngsw-worker.js
+packages/frontend/ngsw.json
+
+# Angular Karma test
+packages/frontend/coverage/
+packages/frontend/coverage-final.json
+packages/frontend/coverage-final/
+
+# Environment files
+packages/frontend/src/environments/environment.*
+packages/backend/.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.DS_Store
+
+# Mac system files
+.DS_Store
+
+# Misc
+*.log
+*.lock
+*.zip
+*.tmp
+*.temp
