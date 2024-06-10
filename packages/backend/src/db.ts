@@ -1,10 +1,11 @@
 import mysql from "mysql2/promise";
+import { BackendConfig } from "./config";
 
 const pool = mysql.createPool({
   connectionLimit: 10,
   host: "localhost",
-  user: "root", // Replace with your MySQL username
-  password: "password", // Replace with your MySQL password
+  user: BackendConfig.DB_USER,
+  password: BackendConfig.DB_PASSWORD,
   database: "user_service", // Replace with your database name
 });
 

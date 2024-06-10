@@ -11,6 +11,9 @@ npm-debug.log*
 yarn-debug.log*
 lerna-debug.log*
 
+# Dev Environment Configs
+packages/backend/src/config.ts
+
 # Yarn
 .yarn-integrity
 
@@ -20,6 +23,7 @@ packages/frontend/.angular/coverage/
 packages/frontend/dist/
 packages/frontend/out-tsc/
 packages/frontend/tmp/
+packages/backend/dist/
 
 # TypeScript
 packages/frontend/.tsbuildinfo
